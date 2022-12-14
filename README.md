@@ -39,6 +39,14 @@ go mod download
 go run main.go
 ```
 
+4. After scanning the QRCode, send "ping" (without quotes) to the WhatsApp account logged into the program. It'll send "pong" back.
+
+<p align="center">
+  <br>
+    <img src="./bot_in_action.jpg" width="262px" height="120px"/>
+  <br><br>
+</p>
+
 ## Disclaimers
 
 > **Note**: We are not affiliated, associated, authorized, endorsed by or in any way officially connected to WhatsMeow®. (go.mau.fi/whatsmeow).
