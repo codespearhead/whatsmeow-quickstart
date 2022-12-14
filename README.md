@@ -1,7 +1,5 @@
 <h1 align="center"><a href="https://paguiar.link/whatsmeow-quickstart">WhatsMeow® Quickstart</a></h1>
 
-> **Note**: This project will be archieved if it's merged into the official WhatsMeow repository
-
 <p align="center">
     <br>
   <a href="https://pixabay.com/vectors/run-sport-stand-success-ready-2872201/">
@@ -46,3 +44,7 @@ go run main.go
 > **Note**: We are not affiliated, associated, authorized, endorsed by or in any way officially connected to WhatsMeow®. (go.mau.fi/whatsmeow).
 
 > **Note**: This repository was built upon the currently official [minimal working example](https://godocs.io/go.mau.fi/whatsmeow#example-package) of WhatsMeow®.
+
+> **Note**: This project will be archieved if it's merged into the official WhatsMeow repository.
+
+> **Warning**: Do not log out immediately after logging in, otherwise various panics will be raised because the [program as a whole will probably not be ready by then](https://github.com/tulir/whatsmeow/issues/295). If you want to log out, wait a few seconds and only then press CRTL+C.
