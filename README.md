@@ -49,10 +49,15 @@ go run main.go
 
 ## Disclaimers
 
-> **Note**: We are not affiliated, associated, authorized, endorsed by or in any way officially connected to WhatsMeow®. (go.mau.fi/whatsmeow).
-
 > **Note**: This repository was built upon the currently official [minimal working example](https://godocs.io/go.mau.fi/whatsmeow#example-package) of WhatsMeow®.
 
-> **Note**: This project will be archieved if it's merged into the official WhatsMeow repository.
+> **Note**: We are not affiliated, associated, authorized, endorsed by or in any way officially connected to WhatsApp, LLC. (www.whatsapp.com).
+
+> **Note**: We are not affiliated, associated, authorized, endorsed by or in any way officially connected to WhatsMeow®. (go.mau.fi/whatsmeow).
+
+> **Note**:
+> Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.
+> Fair use is a use permitted by copyright statute that might otherwise be infringing.
+> Non-profit, educational or personal use tips the balance in favor of fair use.
 
 > **Warning**: Do not log out immediately after logging in, otherwise various panics will be raised because the [program as a whole will probably not be ready by then](https://github.com/tulir/whatsmeow/issues/295). If you want to log out, wait a few seconds and only then press CRTL+C.
