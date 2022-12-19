@@ -49,7 +49,7 @@ go run main.go
 
 ## Disclaimers
 
-> **Note**: This repository was built upon the currently official [minimal working example](https://godocs.io/go.mau.fi/whatsmeow#example-package) of WhatsMeow®.
+> **Note**: This repository was built upon the currently official [quickstart](https://godocs.io/go.mau.fi/whatsmeow#example-package) of WhatsMeow®.
 
 > **Note**: We are not affiliated, associated, authorized, endorsed by or in any way officially connected to WhatsApp, LLC. (www.whatsapp.com).
 
@@ -60,4 +60,4 @@ go run main.go
 > Fair use is a use permitted by copyright statute that might otherwise be infringing.
 > Non-profit, educational or personal use tips the balance in favor of fair use.
 
-> **Warning**: Do not log out immediately after logging in, otherwise various panics will be raised because the [program as a whole will probably not be ready by then](https://github.com/tulir/whatsmeow/issues/295). If you want to log out, wait a few seconds and only then press CRTL+C.
+> **Warning**: Warning: Do not log out immediately after logging in (scanning the QRCode), otherwise various panic messages will be raised because WhatsMeow will [unlikely be done with the logging in process by then](https://github.com/tulir/whatsmeow/issues/295). If you want to log out, wait a few seconds and only then press CTRL+C.
