@@ -51,7 +51,7 @@ go run main.go
 
 > **Warning**: WhatsApp's averse to any type of automation that it considers to be "Harm[ful] to WhatsApp or [their] Users" on its platform, unless it's coming from an official WhatsApp Businesses API partner. So, it’s advisable to read WhatsApp's [Terms of Service](https://www.whatsapp.com/legal/terms-of-service) in order not to break them. Use this software at your own risk.
 
-> **Warning**: Warning: Do not log out immediately after logging in (scanning the QRCode), otherwise various panic messages will be raised because [WhatsMeow will unlikely be done with the logging in process by then](https://github.com/tulir/whatsmeow/issues/295). If you want to log out, wait a few seconds and only then press CTRL+C.
+> **Warning**: Do not log out immediately after logging in (scanning the QRCode), otherwise various panic messages will be raised because [WhatsMeow will unlikely be done with the logging in process by then](https://github.com/tulir/whatsmeow/issues/295). If you want to log out, wait a few seconds and only then press CTRL+C.
 
 > **Note**: This repository was built upon the currently official [quickstart](https://godocs.io/go.mau.fi/whatsmeow#example-package) of WhatsMeow®.
 
