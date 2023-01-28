@@ -24,7 +24,7 @@ func GetEventHandler(client *whatsmeow.Client) func(interface{}) {
 		case *events.Message:
 			var messageBody = v.Message.GetConversation()
 			if messageBody == "ping" {
-				client.SendMessage(context.Background(), v.Info.Chat, "", &waProto.Message{
+				client.SendMessage(context.Background(), v.Info.Chat, &waProto.Message{
 					Conversation: proto.String("pong"),
 				})
 			}
