@@ -14,7 +14,9 @@
 
 ## QuickStart with Docker (Recommended)
 
-TODO
+```sh
+docker run paguiar735/whatsmeow-quickstart
+```
 
 ## Manual QuickStart
 
@@ -39,7 +41,9 @@ go mod download
 go run main.go
 ```
 
-4. After scanning the QRCode, send "ping" (without quotes) to the WhatsApp account logged into the program. It'll send "pong" back.
+## Usage
+
+After scanning the QRCode, send "ping" (without quotes) to the WhatsApp account logged into the program. It'll send "pong" back.
 
 <p align="center">
   <br>
