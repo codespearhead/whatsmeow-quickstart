@@ -25,7 +25,7 @@ docker run paguiar735/whatsmeow-quickstart
 1. Clone the repository and cd into it:
 
 ```
-git clone https://github.com/Paguiar735/whatsmeow-quickstart
+git clone https://github.com/codespearhead/whatsmeow-quickstart
 cd whatsmeow-quickstart
 ```
 
