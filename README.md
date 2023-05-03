@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://paguiar.link/whatsmeow-quickstart">WhatsMeow® Quickstart</a></h1>
+<h1 align="center"><a href="https://github.com/codespearhead/whatsmeow-quickstart">WhatsMeow® Quickstart</a></h1>
 
 <p align="center">
     <br>
