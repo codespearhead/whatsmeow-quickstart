@@ -1,3 +1,5 @@
+> **Warning**: I've drifted apart from the project. Feel free to fork it or submit pull requests.
+> 
 <h1 align="center"><a href="https://github.com/codespearhead/whatsmeow-quickstart">WhatsMeow® Quickstart</a></h1>
 
 <p align="center">
