@@ -1,9 +1,9 @@
-FROM golang:1.19.5-buster
+FROM golang:1.19.10-alpine3.18
 
 WORKDIR /build
-ADD https://raw.githubusercontent.com/Paguiar735/whatsmeow-quickstart/main/go.mod go.mod
-ADD https://raw.githubusercontent.com/Paguiar735/whatsmeow-quickstart/main/go.sum go.sum
-ADD https://raw.githubusercontent.com/Paguiar735/whatsmeow-quickstart/main/main.go main.go
+ADD https://raw.githubusercontent.com/codespearhead/whatsmeow-quickstart/main/go.mod go.mod
+ADD https://raw.githubusercontent.com/codespearhead/whatsmeow-quickstart/main/go.sum go.sum
+ADD https://raw.githubusercontent.com/codespearhead/whatsmeow-quickstart/main/main.go main.go
 
 RUN go mod download
 RUN go build -o ../main .
